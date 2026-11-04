@@ -16,6 +16,16 @@
     <list default="true" id="a1ece37f-0625-4d5e-9b30-196aa38a1f4e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProyectoQ4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProyectoQ4/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProyectoQ4Backend/ProyectoQ4Backend.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoQ4Backend/ProyectoQ4Backend.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectoQ4Backend/obj/Debug/net10.0/ProyectoQ4Backend.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoQ4Backend/obj/Debug/net10.0/ProyectoQ4Backend.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectoQ4Backend/obj/Debug/net10.0/ProyectoQ4Backend.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoQ4Backend/obj/Debug/net10.0/ProyectoQ4Backend.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectoQ4Backend/obj/Debug/net10.0/ProyectoQ4Backend.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoQ4Backend/obj/Debug/net10.0/ProyectoQ4Backend.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectoQ4Backend/obj/Debug/net10.0/ProyectoQ4Backend.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoQ4Backend/obj/Debug/net10.0/ProyectoQ4Backend.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectoQ4Backend/obj/ProyectoQ4Backend.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoQ4Backend/obj/ProyectoQ4Backend.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectoQ4Backend/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoQ4Backend/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectoQ4Backend/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoQ4Backend/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectoQ4Backend/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoQ4Backend/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectoQ4Backend/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoQ4Backend/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectoQ4Backend/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoQ4Backend/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,23 +44,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000031856076113" />
-      <entry key="MS500" value="1.0813233058754066" />
-      <entry key="S2" value="2.1592450748699905" />
-      <entry key="S5" value="4.533023570864653" />
-      <entry key="S10" value="6.668553582513638" />
-      <entry key="S30" value="14.586471342214999" />
-      <entry key="S60" value="25.162349197133437" />
-      <entry key="M2" value="38.35760970811944" />
-      <entry key="M5" value="69.12855225172957" />
-      <entry key="M10" value="100.038309455504" />
-      <entry key="M15" value="116.35371433556652" />
-      <entry key="M30" value="137.97096741613018" />
-      <entry key="H1" value="152.74555224403923" />
-      <entry key="H2" value="162.40521347068173" />
-      <entry key="H4" value="168.22708728978927" />
-      <entry key="D1" value="173.79282566167115" />
-      <entry key="W1" value="174.82544055970376" />
+      <entry key="MS100" value="1.1277865558429325" />
+      <entry key="MS500" value="3.788697179596752" />
+      <entry key="S2" value="9.802767171784945" />
+      <entry key="S5" value="18.115737208715593" />
+      <entry key="S10" value="26.219337481477318" />
+      <entry key="S30" value="36.323357756187164" />
+      <entry key="S60" value="40.19598921037487" />
+      <entry key="M2" value="46.19540117079229" />
+      <entry key="M5" value="72.02808943080426" />
+      <entry key="M10" value="108.24562668249439" />
+      <entry key="M15" value="130.71061459578542" />
+      <entry key="M30" value="163.1605689367146" />
+      <entry key="H1" value="185.96584967361676" />
+      <entry key="H2" value="200.57344346723406" />
+      <entry key="H4" value="209.18007192962915" />
+      <entry key="D1" value="217.26433452341522" />
+      <entry key="W1" value="218.74939783117935" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -72,23 +82,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="3.0267977736629886E-4" />
-      <entry key="MS500" value="0.22739251704480248" />
-      <entry key="S2" value="1.6999978691021678" />
-      <entry key="S5" value="4.2990764320207004" />
-      <entry key="S10" value="6.539586047896797" />
-      <entry key="S30" value="14.538798145850858" />
-      <entry key="S60" value="25.136593199429125" />
-      <entry key="M2" value="38.34226990307927" />
-      <entry key="M5" value="69.11626533347956" />
-      <entry key="M10" value="100.02808815449322" />
-      <entry key="M15" value="116.34534047466549" />
-      <entry key="M30" value="137.9655928829976" />
-      <entry key="H1" value="152.74230475945396" />
-      <entry key="H2" value="162.4033473952775" />
-      <entry key="H4" value="168.22606893755673" />
-      <entry key="D1" value="173.79264099279092" />
-      <entry key="W1" value="174.8254137630237" />
+      <entry key="MS100" value="1.0823081777465553" />
+      <entry key="MS500" value="3.758096697436962" />
+      <entry key="S2" value="9.78201329580347" />
+      <entry key="S5" value="18.095953555279255" />
+      <entry key="S10" value="26.20072778578121" />
+      <entry key="S30" value="36.31255526424188" />
+      <entry key="S60" value="40.18936533878015" />
+      <entry key="M2" value="46.19026100215606" />
+      <entry key="M5" value="72.02152254462796" />
+      <entry key="M10" value="108.23829101047387" />
+      <entry key="M15" value="130.70386603819586" />
+      <entry key="M30" value="163.15567664328643" />
+      <entry key="H1" value="185.96270709787163" />
+      <entry key="H2" value="200.57158254092903" />
+      <entry key="H4" value="209.17904117253642" />
+      <entry key="D1" value="217.26414528699397" />
+      <entry key="W1" value="218.74937031375606" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
