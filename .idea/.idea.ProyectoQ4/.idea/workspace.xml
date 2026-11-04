@@ -13,7 +13,10 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1ece37f-0625-4d5e-9b30-196aa38a1f4e" name="Changes" comment="" />
+    <list default="true" id="a1ece37f-0625-4d5e-9b30-196aa38a1f4e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProyectoQ4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProyectoQ4/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,25 +25,32 @@
   <component name="DpaMonitoringSettings">
     <option name="firstShow" value="false" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0001222839096575" />
-      <entry key="S2" value="1.210939996857412" />
-      <entry key="S5" value="2.0264005081850023" />
-      <entry key="S10" value="2.7517642556401456" />
-      <entry key="S30" value="3.5065556203398653" />
-      <entry key="S60" value="3.7425259029880014" />
-      <entry key="M2" value="3.8893552429653533" />
-      <entry key="M5" value="4.160778637162116" />
-      <entry key="M10" value="4.436018171852284" />
-      <entry key="M15" value="4.5804473474881995" />
-      <entry key="M30" value="4.764570574180585" />
-      <entry key="H1" value="4.875023885689901" />
-      <entry key="H2" value="4.935578289754925" />
-      <entry key="H4" value="4.96729009992381" />
-      <entry key="D1" value="4.9944776702014275" />
-      <entry key="W1" value="4.9992093466867" />
+      <entry key="MS500" value="1.0003666920910175" />
+      <entry key="S2" value="1.2264086456649026" />
+      <entry key="S5" value="2.2981202300931667" />
+      <entry key="S10" value="4.4396073655387" />
+      <entry key="S30" value="11.168922860654034" />
+      <entry key="S60" value="19.66168752201902" />
+      <entry key="M2" value="32.07610848767522" />
+      <entry key="M5" value="47.90946034522834" />
+      <entry key="M10" value="55.934707540141055" />
+      <entry key="M15" value="59.13246442521316" />
+      <entry key="M30" value="63.45240660205799" />
+      <entry key="H1" value="67.58814692261889" />
+      <entry key="H2" value="71.21267049787411" />
+      <entry key="H4" value="73.75258507060043" />
+      <entry key="D1" value="76.40038364988429" />
+      <entry key="W1" value="76.91277197023355" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -62,54 +72,56 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="6.854448867976096E-18" />
-      <entry key="MS500" value="4.890662741858326E-4" />
-      <entry key="S2" value="0.3485132581534704" />
-      <entry key="S5" value="1.4780102750542587" />
-      <entry key="S10" value="2.4235537092694335" />
-      <entry key="S30" value="3.382291742726361" />
-      <entry key="S60" value="3.6783213442766423" />
-      <entry key="M2" value="3.856685307374303" />
-      <entry key="M5" value="4.147459930233494" />
-      <entry key="M10" value="4.4292595610777665" />
-      <entry key="M15" value="4.575908629427775" />
-      <entry key="M30" value="4.762280612488817" />
-      <entry key="H1" value="4.873872801119412" />
-      <entry key="H2" value="4.935001083495553" />
-      <entry key="H4" value="4.967001062215026" />
-      <entry key="D1" value="4.994429435248473" />
-      <entry key="W1" value="4.999202454438847" />
+      <entry key="MS100" value="5.623890751996629E-6" />
+      <entry key="MS500" value="0.08938836546031921" />
+      <entry key="S2" value="0.7226436676228978" />
+      <entry key="S5" value="1.980278286884168" />
+      <entry key="S10" value="4.23127120367607" />
+      <entry key="S30" value="11.069241855070391" />
+      <entry key="S60" value="19.59819864337553" />
+      <entry key="M2" value="32.034281728249724" />
+      <entry key="M5" value="47.88714469521335" />
+      <entry key="M10" value="55.92206134547796" />
+      <entry key="M15" value="59.12360440358522" />
+      <entry key="M30" value="63.44755153070273" />
+      <entry key="H1" value="67.58539800151728" />
+      <entry key="H2" value="71.2111278520171" />
+      <entry key="H4" value="73.7517509315553" />
+      <entry key="D1" value="76.40023336143057" />
+      <entry key="W1" value="76.9127501845089" />
     </decayedShown>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3LeYbH2fzrrWefCyteWezkpqsFw" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.ProyectoQ4: http.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "cidr.known.project.marker": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.ProyectoQ4: http.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="ProyectoQ4: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/ProyectoQ4Backend/ProyectoQ4Backend.csproj" />

@@ -1,0 +1,19 @@
+﻿# archivos de build y compilación
+bin/
+obj/
+
+# rider
+idea/
+
+# las credenciales de firebase no se debe de subir a git
+# usamos **/ para que funcionen sin omportar en que subnivel esté
+**/Config/firebase-credentials.json
+
+# sistemas operativos
+.Ds_Store
+.Thumbs.db
+
+# archivos de usuario rider y visual studio
+*.user
+*.suo 
+
