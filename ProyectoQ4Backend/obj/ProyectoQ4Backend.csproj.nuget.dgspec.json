@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vsmen\\RiderProjects\\ProyectoQ4\\ProyectoQ4Backend\\ProyectoQ4Backend.csproj": {}
+    "C:\\Users\\vsmen\\OneDrive - Universidad Tecnologica Centroamericana\\CEUTEC 2\\Programación Web\\Semana 4\\Web759\\Web-Q4-2026-Backend\\ProyectoQ4Backend\\ProyectoQ4Backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vsmen\\RiderProjects\\ProyectoQ4\\ProyectoQ4Backend\\ProyectoQ4Backend.csproj": {
+    "C:\\Users\\vsmen\\OneDrive - Universidad Tecnologica Centroamericana\\CEUTEC 2\\Programación Web\\Semana 4\\Web759\\Web-Q4-2026-Backend\\ProyectoQ4Backend\\ProyectoQ4Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vsmen\\RiderProjects\\ProyectoQ4\\ProyectoQ4Backend\\ProyectoQ4Backend.csproj",
+        "projectUniqueName": "C:\\Users\\vsmen\\OneDrive - Universidad Tecnologica Centroamericana\\CEUTEC 2\\Programación Web\\Semana 4\\Web759\\Web-Q4-2026-Backend\\ProyectoQ4Backend\\ProyectoQ4Backend.csproj",
         "projectName": "ProyectoQ4Backend",
-        "projectPath": "C:\\Users\\vsmen\\RiderProjects\\ProyectoQ4\\ProyectoQ4Backend\\ProyectoQ4Backend.csproj",
+        "projectPath": "C:\\Users\\vsmen\\OneDrive - Universidad Tecnologica Centroamericana\\CEUTEC 2\\Programación Web\\Semana 4\\Web759\\Web-Q4-2026-Backend\\ProyectoQ4Backend\\ProyectoQ4Backend.csproj",
         "packagesPath": "C:\\Users\\vsmen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vsmen\\RiderProjects\\ProyectoQ4\\ProyectoQ4Backend\\obj\\",
+        "outputPath": "C:\\Users\\vsmen\\OneDrive - Universidad Tecnologica Centroamericana\\CEUTEC 2\\Programación Web\\Semana 4\\Web759\\Web-Q4-2026-Backend\\ProyectoQ4Backend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
