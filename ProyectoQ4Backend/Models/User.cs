@@ -10,6 +10,6 @@ public class User
     
     public string PasswordHash { get; set; } = string.Empty;
 
-    public DateTime CreateAt { get; set; } = DateTime.UtcNow;
+    public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
     
 }

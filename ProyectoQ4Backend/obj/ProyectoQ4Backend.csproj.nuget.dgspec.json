@@ -57,9 +57,9 @@
               "target": "Package",
               "version": "[4.6.0, )"
             },
-            "Google.Cloud.Firestore.V1": {
+            "Google.Cloud.Firestore.Admin.V1": {
               "target": "Package",
-              "version": "[4.6.0, )"
+              "version": "[3.19.0, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",

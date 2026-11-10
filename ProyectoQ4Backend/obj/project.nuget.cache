@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Cav/uGF9FAs=",
+  "dgSpecHash": "vbzGFD6+gcY=",
   "success": true,
   "projectFilePath": "C:\\Users\\vsmen\\OneDrive - Universidad Tecnologica Centroamericana\\CEUTEC 2\\Programación Web\\ProyectoQ4BackendPERSONAL\\Web-Q4-2026-Backend\\ProyectoQ4Backend\\ProyectoQ4Backend.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "C:\\Users\\vsmen\\.nuget\\packages\\google.apis.auth\\1.73.0\\google.apis.auth.1.73.0.nupkg.sha512",
     "C:\\Users\\vsmen\\.nuget\\packages\\google.apis.core\\1.73.0\\google.apis.core.1.73.0.nupkg.sha512",
     "C:\\Users\\vsmen\\.nuget\\packages\\google.cloud.firestore\\4.6.0\\google.cloud.firestore.4.6.0.nupkg.sha512",
+    "C:\\Users\\vsmen\\.nuget\\packages\\google.cloud.firestore.admin.v1\\3.19.0\\google.cloud.firestore.admin.v1.3.19.0.nupkg.sha512",
     "C:\\Users\\vsmen\\.nuget\\packages\\google.cloud.firestore.v1\\4.6.0\\google.cloud.firestore.v1.4.6.0.nupkg.sha512",
     "C:\\Users\\vsmen\\.nuget\\packages\\google.cloud.location\\2.4.0\\google.cloud.location.2.4.0.nupkg.sha512",
     "C:\\Users\\vsmen\\.nuget\\packages\\google.longrunning\\3.5.0\\google.longrunning.3.5.0.nupkg.sha512",
