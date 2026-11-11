@@ -1,4 +1,4 @@
-﻿using System.Security.Cryptography;
+﻿﻿using System.Security.Cryptography;
 using System.Text;
 using Google.Cloud.Firestore;
 using ProyectoQ4Backend.DTOs;
@@ -25,7 +25,7 @@ public class AuthService
     //diferentes tareas al mismo tiempo
     public async Task<User> Register(RegisterDtos dto)
     {
-        var collection = _firebaseService.GetCollection("usaer");
+        var collection = _firebaseService.GetCollection("user");
 
 
         // Antes de crear, buscar el correo (que no exista)
@@ -67,4 +67,3 @@ public class AuthService
 
     }
 }
-
