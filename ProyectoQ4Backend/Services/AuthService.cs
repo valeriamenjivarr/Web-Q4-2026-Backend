@@ -1,6 +1,9 @@
-﻿﻿using System.Security.Cryptography;
+﻿﻿using System.IdentityModel.Tokens.Jwt;
+ using System.Security.Claims;
+ using System.Security.Cryptography;
 using System.Text;
 using Google.Cloud.Firestore;
+using Microsoft.IdentityModel.Tokens;
 using ProyectoQ4Backend.DTOs;
 using ProyectoQ4Backend.Models;
 
@@ -58,6 +61,75 @@ public class AuthService
         });
         return user;
     }
+
+    public async Task<string> Login(LoginDtos dto)
+    {
+        var collection = _firebaseService.GetCollection("user");
+        
+        // Antes de crear, buscar el correo (que no exista)
+        var snapshot = await collection
+            .WhereEqualTo("Email", dto.Email)
+            .GetSnapshotAsync();
+
+        if (snapshot.Count == 0)
+        {
+            throw new Exception("Credenciales inválidas");
+        }
+        
+        var data = snapshot.Documents[0].ToDictionary();
+
+        var user = new User()
+        {
+            Id = data["Id"].ToString()!,
+            FullName = data["FullName"].ToString()!,
+            Email = data["Email"].ToString()!,
+            PasswordHash = data["PasswordHash"].ToString()!,
+            CreatedAt = ((Google.Cloud.Firestore.Timestamp)data["CreatedAt"]).ToDateTime()
+        };
+
+        if (!VerifyPassword(dto.Password, user.PasswordHash))
+        {
+            throw new Exception("Credenciales invalidas");
+        }
+        return GenerateToken(user);
+
+    }
+
+    private string GenerateToken(User user)
+    {
+        //Claims: datos que viajan dentro del token, genera una cadena de texto ramdom
+        //donde viene la info del usuario
+        
+        var claims = new []
+        {
+            new Claim(ClaimTypes.NameIdentifier, user.Id),
+            new Claim(ClaimTypes.Email, user.Email),
+        };
+        
+        //La clave secreta firma el token, si alguien lo altera,
+        //el servidor lo rechaza
+        var key = new SymmetricSecurityKey(
+            Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]!));
+
+        var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+        var token = new JwtSecurityToken(
+            issuer : _configuration["Jwt:Issuer"], //quien genera el token?
+            audience : _configuration["Jwt:Audience"], //para quien es el token?
+            claims : claims,
+            expires : DateTime.UtcNow.AddHours(8),
+            signingCredentials : creds
+            );
+        
+        return new JwtSecurityTokenHandler().WriteToken(token);
+        
+    }
+
+    private bool VerifyPassword(string password, string hash)
+    {
+        return HashPassword(password) == hash;
+    }
+
 
     private string HashPassword(string password)
     {
