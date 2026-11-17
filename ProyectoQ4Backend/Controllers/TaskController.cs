@@ -13,6 +13,7 @@ public class TaskController : ControllerBase
 {
     private readonly TaskServices _taskService;
 
+    
     public TaskController(TaskServices taskService)
     {
         _taskService = taskService;
@@ -26,6 +27,7 @@ public class TaskController : ControllerBase
         {
             var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
 
+            
             if (string.IsNullOrEmpty(userId))
                 return Unauthorized();
 
@@ -34,7 +36,7 @@ public class TaskController : ControllerBase
         }
         catch (Exception e)
         {
-            return BadRequest(new { message = e.Message });
+            return BadRequest(new {message = e.Message});
         }
     }
 
@@ -44,18 +46,18 @@ public class TaskController : ControllerBase
         try
         {
             var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-
+            
             if (string.IsNullOrEmpty(userId))
                 return Unauthorized();
 
             var task = await _taskService.GetByUser(userId);
-
+            
             return Ok(task);
 
         }
         catch (Exception e)
         {
-            return BadRequest(new { message = e.Message });
+            return BadRequest(new {message = e.Message});
         }
     }
 }
