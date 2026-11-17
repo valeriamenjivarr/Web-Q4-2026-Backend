@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vbzGFD6+gcY=",
+  "dgSpecHash": "gmDdBhWYWYA=",
   "success": true,
   "projectFilePath": "C:\\Users\\vsmen\\OneDrive - Universidad Tecnologica Centroamericana\\CEUTEC 2\\Programación Web\\ProyectoQ4BackendPERSONAL\\Web-Q4-2026-Backend\\ProyectoQ4Backend\\ProyectoQ4Backend.csproj",
   "expectedPackageFiles": [
@@ -24,6 +24,8 @@
     "C:\\Users\\vsmen\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.14\\microsoft.aspnetcore.openapi.10.0.14.nupkg.sha512",
     "C:\\Users\\vsmen\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\10.0.14\\microsoft.bcl.asyncinterfaces.10.0.14.nupkg.sha512",
     "C:\\Users\\vsmen\\.nuget\\packages\\microsoft.bcl.cryptography\\10.0.2\\microsoft.bcl.cryptography.10.0.2.nupkg.sha512",
+    "C:\\Users\\vsmen\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\vsmen\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\vsmen\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.19.2\\microsoft.identitymodel.abstractions.8.19.2.nupkg.sha512",
     "C:\\Users\\vsmen\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\8.19.2\\microsoft.identitymodel.jsonwebtokens.8.19.2.nupkg.sha512",
     "C:\\Users\\vsmen\\.nuget\\packages\\microsoft.identitymodel.logging\\8.19.2\\microsoft.identitymodel.logging.8.19.2.nupkg.sha512",
@@ -34,7 +36,10 @@
     "C:\\Users\\vsmen\\.nuget\\packages\\newtonsoft.json\\13.0.4\\newtonsoft.json.13.0.4.nupkg.sha512",
     "C:\\Users\\vsmen\\.nuget\\packages\\scalar.aspnetcore\\2.18.7\\scalar.aspnetcore.2.18.7.nupkg.sha512",
     "C:\\Users\\vsmen\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
+    "C:\\Users\\vsmen\\.nuget\\packages\\system.collections.immutable\\8.0.0\\system.collections.immutable.8.0.0.nupkg.sha512",
+    "C:\\Users\\vsmen\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.2\\system.diagnostics.diagnosticsource.6.0.2.nupkg.sha512",
     "C:\\Users\\vsmen\\.nuget\\packages\\system.identitymodel.tokens.jwt\\8.19.2\\system.identitymodel.tokens.jwt.8.19.2.nupkg.sha512",
+    "C:\\Users\\vsmen\\.nuget\\packages\\system.linq.asyncenumerable\\10.0.14\\system.linq.asyncenumerable.10.0.14.nupkg.sha512",
     "C:\\Users\\vsmen\\.nuget\\packages\\system.management\\7.0.2\\system.management.7.0.2.nupkg.sha512"
   ],
   "logs": []

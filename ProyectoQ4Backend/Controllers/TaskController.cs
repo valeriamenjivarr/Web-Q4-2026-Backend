@@ -12,6 +12,7 @@ namespace ProyectoQ4Backend.Controllers;
 public class TaskController : ControllerBase
 {
     private readonly TaskServices _taskService;
+
     
     public TaskController(TaskServices taskService)
     {
@@ -25,6 +26,7 @@ public class TaskController : ControllerBase
         try
         {
             var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
             
             if (string.IsNullOrEmpty(userId))
                 return Unauthorized();
