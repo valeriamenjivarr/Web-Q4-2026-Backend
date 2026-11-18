@@ -62,6 +62,7 @@ public class TaskServices
                 CreatedAt = ((Google.Cloud.Firestore.Timestamp)data["CreatedAt"]).ToDateTime()
             });
         }
+
         return task;
     }
 }
