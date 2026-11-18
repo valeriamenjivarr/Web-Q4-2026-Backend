@@ -13,7 +13,7 @@ public class AuthService
 {
     private readonly FirebaseServices _firebaseService;
 
-    //IConfiuration lee los valores que estaran alojados en el appsettings
+    //IConfiguration lee los valores que estaran alojados en el appsettings
     private readonly IConfiguration _configuration;
 
     //Principio de como se autentica la info
