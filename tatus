@@ -1,0 +1,29 @@
+[1mdiff --git a/ProyectoQ4Backend/obj/Debug/net10.0/ProyectoQ4Backend.AssemblyInfo.cs b/ProyectoQ4Backend/obj/Debug/net10.0/ProyectoQ4Backend.AssemblyInfo.cs[m
+[1mindex 84fd804..d88088e 100644[m
+[1m--- a/ProyectoQ4Backend/obj/Debug/net10.0/ProyectoQ4Backend.AssemblyInfo.cs[m
+[1m+++ b/ProyectoQ4Backend/obj/Debug/net10.0/ProyectoQ4Backend.AssemblyInfo.cs[m
+[36m@@ -13,7 +13,7 @@[m [musing System.Reflection;[m
+ [assembly: System.Reflection.AssemblyCompanyAttribute("ProyectoQ4Backend")][m
+ [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")][m
+ [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")][m
+[31m-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+716e2db93079a3f29a6032cf19ae9b987a2cced6")][m
+[32m+[m[32m[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+746ba55852f0d5920ff9035b341e879e2b17c65b")][m
+ [assembly: System.Reflection.AssemblyProductAttribute("ProyectoQ4Backend")][m
+ [assembly: System.Reflection.AssemblyTitleAttribute("ProyectoQ4Backend")][m
+ [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")][m
+[1mdiff --git a/ProyectoQ4Backend/obj/Debug/net10.0/ProyectoQ4Backend.AssemblyInfoInputs.cache b/ProyectoQ4Backend/obj/Debug/net10.0/ProyectoQ4Backend.AssemblyInfoInputs.cache[m
+[1mindex a728473..d57167f 100644[m
+[1m--- a/ProyectoQ4Backend/obj/Debug/net10.0/ProyectoQ4Backend.AssemblyInfoInputs.cache[m
+[1m+++ b/ProyectoQ4Backend/obj/Debug/net10.0/ProyectoQ4Backend.AssemblyInfoInputs.cache[m
+[36m@@ -1 +1 @@[m
+[31m-a3b50f1427c9977f5d6959c30fb37becafadf09d87cc11c299722930aa189b72[m
+[32m+[m[32m441b4a7286061d61cd4bb877f2ba6e2f9946839b3f467a891df1146602abb56a[m
+[1mdiff --git a/ProyectoQ4Backend/obj/rider.project.model.nuget.info b/ProyectoQ4Backend/obj/rider.project.model.nuget.info[m
+[1mindex a87aa89..f98e4ad 100644[m
+[1m--- a/ProyectoQ4Backend/obj/rider.project.model.nuget.info[m
+[1m+++ b/ProyectoQ4Backend/obj/rider.project.model.nuget.info[m
+[36m@@ -1 +1 @@[m
+[31m-﻿17949845958597487[m
+\ No newline at end of file[m
+[32m+[m[32m﻿17950343248643200[m
+\ No newline at end of file[m
